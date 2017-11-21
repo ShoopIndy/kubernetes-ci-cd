@@ -1,0 +1,12 @@
+node {
+
+    env.DOCKER_API_VERSION="1.23"
+    
+    stage "Build"
+    
+       echo 'building zalenium'
+    
+    stage "Deploy"
+        
+       echo 'deploying zalenium'
+}
